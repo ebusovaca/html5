@@ -73,61 +73,10 @@ nav a{
 	width:70%;
 	height:100vh;
 	overflow: auto;
+	float:right;
 }
 
 .active { 
     background-color: rgba(76, 175, 80, 1);
 }
 
-table{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 90%;
-  font-weight: light;
-	color:#06425C;
-	-webkit-border-radius: 25px 25px 0 0;
-	border-radius:  4px 4px 0 0;
-  margin: auto;
-  width: 75%;
-}
-tr {
-	background: #F2F2F2;
-}
-tr:not(:first-child){
-  opacity: .7;
-}
-th{
-  border-spacing: 5px;
-	border-bottom: 3px solid #6f7e51;
-  -webkit-border-radius: 25px 25px 0 0;
-	border-radius:  4px 4px 0 0;
-  width:100px;
-	height:40px;
-	background: -webkit-linear-gradient(rgba(76, 175, 80, 1), white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(76, 175, 80, 1), white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(76, 175, 80, 1), white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(76, 175, 80, 1), white); /* Standard syntax */
-  text-align: center;
-  font-size: 110%;
-  font-weight: bold;
-}
-td{
-	width:150px;
-	height:30px;
-	vertical-align:center;
-  text-align: center;
-  padding: 0 0 0 10px;
-  border-radius:  2px;
-  background: #F2F2F2;
-  color: black;
-  
-}
-tr:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-}
-table td:first-child{
-	width:350px;
-	height:30px;
-	vertical-align:center;
-  text-align: left;
-}
