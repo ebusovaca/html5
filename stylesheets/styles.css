@@ -59,9 +59,8 @@ body {
   background-color: #fff;
   padding:50px;
   /*font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  /*font: 15px/1.5 ‘Lucida Console’, Monaco, monospace;*/
-  font: 20px/1.5 "Arial Black", Gadget, sans-serif;
-
+  /*font: 20px/1.5 "Arial Black", Gadget, sans-serif;*/
+  font-family: 'Sofia';font-size: 22px;
   color:#727272;
   font-weight:400;
 }
